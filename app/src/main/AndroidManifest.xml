@@ -16,7 +16,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.SecondActivity"></activity>
+        <activity android:name=".activity.GuideOilPriceActivity">
+
+        </activity>
+
+        <activity android:name=".activity.GuideWeatherActivity"></activity>
+
+        <activity android:name=".activity.StartActivity"></activity>
     </application>
 
 </manifest>

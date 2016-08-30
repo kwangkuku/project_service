@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="ตรวจผลสลากกินแบ่งรัฐบาล"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#CC0000"/>
+
+    <TextView
+        android:text=" ตรวจผลสลากกินแบ่งรัฐบาลทั้งงวด ปัจจุบันและย้อนหลัง พร้อมกับการทำนาย เลขเด็ดล่วงหน้าในงวดต่อไป"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lottery"
+        android:id="@+id/imageView3" />
+
+</LinearLayout>

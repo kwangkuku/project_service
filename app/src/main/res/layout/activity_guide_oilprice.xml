@@ -21,14 +21,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
-        android:layout_weight="0.10"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_weight="0.14"
+        android:textAlignment="center" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pic_oilPrice"
-        android:id="@+id/imageView5"
+        app:srcCompat="@drawable/pic_oil_price"
+        android:id="@+id/oil_price"
         android:layout_weight="0.10" />
 
 </LinearLayout>
