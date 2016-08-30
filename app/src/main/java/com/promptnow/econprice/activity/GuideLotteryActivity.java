@@ -3,7 +3,6 @@ package com.promptnow.econprice.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
-
 import com.promptnow.econprice.R;
 
 /**
@@ -16,7 +15,7 @@ public class GuideLotteryActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide_lottery);
 
-        ImageView image = ( ImageView ) this.findViewById ( R.id.oil_price);
+        ImageView image = ( ImageView ) this.findViewById (R.id.imageView3);
         image.setImageResource ( R.drawable.lottery );
 
 

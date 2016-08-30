@@ -1,9 +1,12 @@
 package com.promptnow.econprice.view;
 
+import android.app.Activity;
 import android.widget.TextView;
 
-public class NullView {
+public class NullView extends Activity{
+
 
 
 }
+
 

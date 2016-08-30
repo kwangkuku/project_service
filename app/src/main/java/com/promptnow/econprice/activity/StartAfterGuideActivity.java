@@ -5,4 +5,5 @@ package com.promptnow.econprice.activity;
  */
 
 public class StartAfterGuideActivity {
+
 }

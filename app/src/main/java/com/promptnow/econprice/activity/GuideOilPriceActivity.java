@@ -3,8 +3,8 @@ package com.promptnow.econprice.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
-
 import com.promptnow.econprice.R;
+
 
 /**
  * Created by Acer on 29/8/2559.

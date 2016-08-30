@@ -10,9 +10,11 @@ import com.promptnow.econprice.R;
  */
 
 public class GuideWeatherActivity extends Activity {
-
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_start);
 
 
 
     }
-
+}
