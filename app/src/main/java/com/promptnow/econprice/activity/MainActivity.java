@@ -7,10 +7,9 @@ import android.support.v4.view.ViewPager;
 import com.promptnow.econprice.R;
 import com.promptnow.econprice.adapter.MyPagerAdapter;
 
-
-
-public class MainActivity extends FragmentActivity  {
+public class MainActivity extends FragmentActivity {
     ViewPager pager;
+    private MyPagerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +17,7 @@ public class MainActivity extends FragmentActivity  {
         setContentView(R.layout.activity_main);
 
 
-        MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
+        adapter = new MyPagerAdapter(getSupportFragmentManager());
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
     }
@@ -35,6 +34,9 @@ public class MainActivity extends FragmentActivity  {
     */
 
 
+    public void setSelect(int position) {
+        pager.setCurrentItem(position);
+    }
 
 
 }
