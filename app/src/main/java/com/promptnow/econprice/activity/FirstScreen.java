@@ -1,0 +1,63 @@
+package com.promptnow.econprice.activity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+
+import com.promptnow.econprice.R;
+import com.promptnow.econprice.adapter.MyPagerAdapter;
+import com.promptnow.econprice.fragment.StartActivity;
+
+/**
+ * Created by Acer on 31/8/2559.
+ */
+
+public class FirstScreen extends Fragment {
+    private View rootView;
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        rootView = inflater.inflate(R.layout.activity_first_screen, container, false);
+
+        setView();
+
+        return rootView;
+    }
+
+    private void setView() {
+
+        ImageView image = (ImageView) rootView.findViewById(R.id.imageView);
+        image.setImageResource(R.drawable.deer);
+
+        Button btnClick = (Button) rootView.findViewById(R.id.button);
+        btnClick.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                new MyPagerAdapter(getActivity().getSupportFragmentManager()).getItem(1);
+
+                MyPagerAdapter newApp = new MyPagerAdapter(getActivity().getSupportFragmentManager());
+                newApp.getItem(1);
+        }
+        });
+
+
+            Button btnClickSKIP = (Button) rootView.findViewById(R.id.skip);
+        btnClickSKIP.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), StartActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+    }
+
+}

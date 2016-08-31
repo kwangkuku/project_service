@@ -1,14 +1,16 @@
 package com.promptnow.econprice.activity;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 
 import com.promptnow.econprice.R;
+import com.promptnow.econprice.adapter.MyPagerAdapter;
 
-public class MainActivity extends AppCompatActivity {
+
+
+public class MainActivity extends FragmentActivity  {
+    ViewPager pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,10 +18,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
+        pager = (ViewPager) findViewById(R.id.pager);
+        pager.setAdapter(adapter);
     }
+
+
 /*
     public void btnClick(View v){
-        showMessage("Hell");
+        showMessage("Hello");
     }
 
     public void showMessage(String message){
@@ -27,16 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
     */
 
-    public void btnClick(View view){
-        Button btnClick = (Button)findViewById(R.id.button);
-        Intent intent = new Intent(MainActivity.this,GuideOilPriceActivity.class);
-        startActivity(intent);
-    }
 
 
-    public void btnClickSKIP(View view){
-        Button btnClickSKIP = (Button)findViewById(R.id.skip);
-        Intent intent = new Intent(MainActivity.this,StartActivity.class);
-        startActivity(intent);
+
 }
-}
+
+
+
+

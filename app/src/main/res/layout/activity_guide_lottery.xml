@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <TextView
         android:text="ตรวจผลสลากกินแบ่งรัฐบาล"
@@ -11,19 +12,23 @@
         android:id="@+id/textView5"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textColor="#CC0000"/>
+        android:textColor="#CC0000"
+        android:layout_weight="0.23" />
 
     <TextView
         android:text=" ตรวจผลสลากกินแบ่งรัฐบาลทั้งงวด ปัจจุบันและย้อนหลัง พร้อมกับการทำนาย เลขเด็ดล่วงหน้าในงวดต่อไป"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView6"
-        android:textSize="24sp" />
+        android:textSize="20sp"
+        android:layout_weight="0.14"
+        android:textAlignment="center" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/lottery"
-        android:id="@+id/imageView3" />
+        android:id="@+id/imageView3"
+        android:layout_weight="0.10" />
 
 </LinearLayout>

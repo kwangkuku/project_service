@@ -16,13 +16,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.GuideOilPriceActivity">
+        <activity android:name=".fragment.GuideOilPriceActivity">
 
         </activity>
 
-        <activity android:name=".activity.GuideWeatherActivity"></activity>
+        <activity android:name=".fragment.GuideWeatherActivity"></activity>
 
-        <activity android:name=".activity.StartActivity"></activity>
+        <activity android:name=".fragment.StartActivity"></activity>
     </application>
 
 </manifest>
