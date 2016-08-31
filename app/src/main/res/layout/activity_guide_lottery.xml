@@ -8,7 +8,7 @@
     <TextView
         android:text="ตรวจผลสลากกินแบ่งรัฐบาล"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:id="@+id/textView5"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -18,7 +18,7 @@
     <TextView
         android:text=" ตรวจผลสลากกินแบ่งรัฐบาลทั้งงวด ปัจจุบันและย้อนหลัง พร้อมกับการทำนาย เลขเด็ดล่วงหน้าในงวดต่อไป"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:id="@+id/textView6"
         android:textSize="20sp"
         android:layout_weight="0.14"
@@ -26,7 +26,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/lottery"
         android:id="@+id/imageView3"
         android:layout_weight="0.10" />

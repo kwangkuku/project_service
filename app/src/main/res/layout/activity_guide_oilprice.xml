@@ -9,7 +9,7 @@
     <TextView
         android:text="ตรวจสอบราคาน้ำมัน"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:id="@+id/textView2"
         android:textColor="#66FF00"
         android:layout_weight="0.21"
@@ -20,7 +20,7 @@
     <TextView
         android:text="      ตรวจสอบราคาน้ำมันล่าสุดวันนี้ เปรียบเทียบราคาน้ำมัน  และคำนวณส่วนต่างราคาน้ำมัน"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:id="@+id/textView3"
         android:textSize="20sp"
         android:layout_weight="0.18"
@@ -28,7 +28,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pic_oil_price"
         android:id="@+id/oil_price"
         android:layout_weight="0.10" />
