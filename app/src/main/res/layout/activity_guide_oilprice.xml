@@ -15,7 +15,8 @@
         android:layout_weight="0.21"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textAllCaps="false" />
 
     <TextView
         android:text="      ตรวจสอบราคาน้ำมันล่าสุดวันนี้ เปรียบเทียบราคาน้ำมัน  และคำนวณส่วนต่างราคาน้ำมัน"

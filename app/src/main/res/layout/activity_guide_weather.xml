@@ -13,7 +13,7 @@
         android:textSize="24sp"
         android:textAlignment="center"
         android:textColor="?attr/actionModeSplitBackground"
-        android:layout_weight="0.31" />
+        android:layout_weight="0.20" />
 
     <TextView
         android:text="การตรวจสอบสภาพภูมิอากาศใน 77 จังหวัด ในประเทศไทย สามารถเลือกภาคในแต่ละภาค เพื่อดูอุณภูมิในแต่ละจังหวัด"
@@ -22,7 +22,7 @@
         android:id="@+id/textView8"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:layout_weight="0.12" />
+        android:layout_weight="0.19" />
 
     <ImageView
         android:layout_width="match_parent"
