@@ -24,19 +24,6 @@ public class FirstScreen extends Fragment {
         rootView = inflater.inflate(R.layout.activity_first_screen, container, false);
 
 
-        /*
-        Button btnClick = (Button)rootView.findViewById(R.id.button);
-        btnClick.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                ///loop if else
-
-            }
-        });
-
-        */
-
         setView();
 
         return rootView;

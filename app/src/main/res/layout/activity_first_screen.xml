@@ -12,12 +12,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.promptnow.econprice.activity.MainActivity">
 
-    <com.promptnow.econprice.view.CustomTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="gogogogo"
-        android:textSize="25dp"/>
-
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"

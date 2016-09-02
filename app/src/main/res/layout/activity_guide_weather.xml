@@ -22,7 +22,8 @@
         android:id="@+id/textView8"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:layout_weight="0.19" />
+        android:layout_weight="0.19"
+        android:layout_margin="30dp"/>
 
     <ImageView
         android:layout_width="match_parent"

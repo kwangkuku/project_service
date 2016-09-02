@@ -16,13 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".fragment.GuideOilPriceActivity">
 
-        </activity>
-
-        <activity android:name=".fragment.GuideWeatherActivity"></activity>
-
-        <activity android:name=".fragment.StartActivity"></activity>
     </application>
 
 </manifest>

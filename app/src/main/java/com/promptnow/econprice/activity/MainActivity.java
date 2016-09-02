@@ -6,10 +6,13 @@ import android.support.v4.view.ViewPager;
 
 import com.promptnow.econprice.R;
 import com.promptnow.econprice.adapter.MyPagerAdapter;
+import com.viewpagerindicator.CirclePageIndicator;
+
 
 public class MainActivity extends FragmentActivity {
     ViewPager pager;
-    private MyPagerAdapter adapter;
+    MyPagerAdapter adapter;
+    CirclePageIndicator indicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,20 +21,25 @@ public class MainActivity extends FragmentActivity {
 
 
         adapter = new MyPagerAdapter(getSupportFragmentManager());
+
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
-    }
 
 
-/*
-    public void btnClick(View v){
-        showMessage("Hello");
-    }
+        indicator = (CirclePageIndicator)findViewById(R.id.indicator);
+        indicator .setViewPager(pager);
 
-    public void showMessage(String message){
-        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+
+
+
+//      pager = (ViewPager) findViewById(R.id.indicator);
+  //      pager.setAdapter(adapter);
+
+
+
+
+
     }
-    */
 
 
     public void setSelect(int position) {
@@ -40,6 +48,9 @@ public class MainActivity extends FragmentActivity {
 
 
 }
+
+
+
 
 
 
