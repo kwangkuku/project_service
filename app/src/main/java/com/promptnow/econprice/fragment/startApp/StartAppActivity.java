@@ -1,4 +1,4 @@
-package com.promptnow.econprice.fragment;
+package com.promptnow.econprice.fragment.startApp;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,7 +13,7 @@ import com.promptnow.econprice.R;
  * Created by Acer on 30/8/2559.
  */
 
-public class StartActivity extends Fragment{
+public class StartAppActivity extends Fragment{
     private View rootView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

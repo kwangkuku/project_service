@@ -1,4 +1,4 @@
-package com.promptnow.econprice.fragment;
+package com.promptnow.econprice.fragment.startApp;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,16 +9,15 @@ import android.widget.ImageView;
 
 import com.promptnow.econprice.R;
 
-
 /**
- * Created by Acer on 29/8/2559.
+ * Created by Acer on 30/8/2559.
  */
 
-public class GuideOilPriceActivity extends Fragment {
+public class StartAfterGuideActivity extends Fragment{
     private View rootView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.activity_guide_oilprice, container, false);
+        rootView = inflater.inflate(R.layout.activity_start_afterguide, container, false);
 
 
         setView();
@@ -28,12 +27,9 @@ public class GuideOilPriceActivity extends Fragment {
 
     private void setView() {
 
-        ImageView image = (ImageView) rootView.findViewById(R.id.oil_price);
-        image.setImageResource(R.drawable.pic_oil_price);
+        ImageView image = (ImageView) rootView.findViewById(R.id.imageView2);
+        image.setImageResource(R.drawable.tri);
 
     }
 
-
 }
-
-
