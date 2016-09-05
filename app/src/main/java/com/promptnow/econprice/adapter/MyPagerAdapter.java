@@ -9,11 +9,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.promptnow.econprice.activity.FirstScreen;
-import com.promptnow.econprice.fragment.GuideLotteryActivity;
-import com.promptnow.econprice.fragment.GuideOilPriceActivity;
-import com.promptnow.econprice.fragment.GuideWeatherActivity;
-import com.promptnow.econprice.fragment.StartActivity;
-import com.promptnow.econprice.fragment.StartAfterGuideActivity;
+import com.promptnow.econprice.fragment.lottery.GuideLotteryActivity;
+import com.promptnow.econprice.fragment.oil.GuideOilPriceActivity;
+import com.promptnow.econprice.fragment.weather.GuideWeatherActivity;
+import com.promptnow.econprice.fragment.startApp.StartAppActivity;
+import com.promptnow.econprice.fragment.startApp.StartAfterGuideActivity;
 
 public  class MyPagerAdapter extends FragmentPagerAdapter {
 
@@ -37,7 +37,7 @@ public  class MyPagerAdapter extends FragmentPagerAdapter {
         else if(position == 4)
             return new StartAfterGuideActivity();
         else if(position == 5)
-            return new StartActivity();
+            return new StartAppActivity();
         return null;
     }
 }
