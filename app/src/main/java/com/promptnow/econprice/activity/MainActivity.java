@@ -20,6 +20,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
+
         //TH sarabran
         //Typeface myTypeface = Typeface.createFromAsset(getAssets(),"THSarabunNew.ttf");
         //TextView myTextView = (TextView)findViewById(R.id.textView2);
